@@ -85,8 +85,11 @@ This further shows that the results are very similar to the data in the master b
 fisherXY(mydata$race,mydata$cappun,printAll = TRUE)
 ```
 
-The only two groups that were different in this sample set were black people and white people they had a significantly low P value of 0.00001741. Black people and other races were very similar and same with white people and other races with p values of 0.06299 and 0.2565. In this Branch, the only two groups that were statistically different are the white people and black people. This is different from the master Branch because in the master, everyone was different.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The only two groups that were different in this sample set were black people and white people they had a significantly low P value of 0.00001741. Black people and other races were very similar and same with white people and other races with p values of 0.06299 and 0.2565. In this Branch, the only two groups that were statistically different are the white people and black people. This is different from the master Branch because in the master, everyone was different.
+
+
