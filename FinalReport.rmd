@@ -40,6 +40,9 @@ If not, then whose view differs from whom??
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
+## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
+
+
 ```{r}
 dd3 <- mydata %>% group_by(race,cappun) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
@@ -57,8 +60,6 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 The opinions in this branch seemingly align with opinions in the data given in the master branch. The difference here is that there are less people- about 1/3 of the sample size in the master branch. 
 
-## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
-
 
 
 
@@ -68,7 +69,11 @@ The opinions in this branch seemingly align with opinions in the data given in t
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
-
+```{r}
+table2 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table2)
+colPerc(table2)
+```
 
 
 
