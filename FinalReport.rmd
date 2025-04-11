@@ -98,3 +98,6 @@ The P values are all significantly low (< 2.2e-16, 0.002607, 0.001564). These re
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In this branch, all of the groups were statistically different. In our number2, the only groups that were statistically different were whites and blacks. Besides that, the other two groups were similar.
+
