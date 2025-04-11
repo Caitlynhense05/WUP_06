@@ -70,7 +70,13 @@ From our observation, we see a stark difference in how white people vote in comp
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
+```{r}
+table2 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table2)
+colPerc(table2)
+```
 
+For white people, the vote was close to 2:1 ratio for in favor vs. against capital punishment. For black people, the votes were kind of close, 42.63% in favor and 57.37% against it. The other races' votes were close as well with 55.20% in favor and 44.80% against it. With this, we once again see that white people were the majority of votes in total, with 79.80% in favor and 65.38% of votes against capital punishment being from them. 
 
 ## Now with More data
 
